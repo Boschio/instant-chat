@@ -52,7 +52,7 @@ const AblyChatComponent = () => {
     return (
         <div className={styles.chatHolder}>
           <div className={styles.chatText}>
-            {messages}
+            <p>{messages}</p>
             {/* empty element to control scroll to bottom */}
             <div ref={(element) => { messageEnd = element; }}></div>
           </div>
